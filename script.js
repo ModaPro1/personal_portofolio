@@ -220,9 +220,7 @@ $(document).ready(function() {
         $(this).attr('disabled', false)
         if(res.status == 200) {
           $(".successMessage").text("Message Successfully Sent !").show()
-          $(".contact-form .form-input").each(function() {
-            $(this).val() = ""
-          })
+          $(".contact-form .form-input").val("")
         }else {
           $(".errorMessage").text("There Was an error please try again").show()
         }
