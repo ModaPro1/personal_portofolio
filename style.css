@@ -601,3 +601,9 @@ main {
 .footer .icons a.linkedin:hover i {
   color: #0a66c2;
 }
+@media (max-width:767px) {
+  .footer p,
+  .footer .icons a i {
+    font-size: 14px;
+  }
+}
