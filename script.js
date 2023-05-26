@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+
   (function () {
     emailjs.init("VxCg8rrlk5orwSnbS");
   })();
@@ -234,4 +235,6 @@ $(document).ready(function() {
       validate($(this))
     })
   })
+  
+  $(".loader").fadeOut()
 })
