@@ -219,10 +219,10 @@ $(document).ready(function() {
       }).then((res) => {
         $(this).attr('disabled', false)
         if(res.status == 200) {
-          $(".successMessage").text("Message Successfully Sent !").show()
+          $(".successMessage").text("Message Successfully Sent !").css("display", "inline-block")
           $(".contact-form .form-input").val("")
         }else {
-          $(".errorMessage").text("There Was an error please try again").show()
+          $(".errorMessage").text("There Was an error please try again").css("display", "inline-block")
         }
       })
     }
