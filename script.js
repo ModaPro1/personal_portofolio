@@ -123,7 +123,6 @@ $(document).ready(function() {
   var errors = []
 
   function validate(input) {
-    var input = input
     // name validation
     if(input.attr("id") == 'name') {
       if($("#name").val() == "") {
